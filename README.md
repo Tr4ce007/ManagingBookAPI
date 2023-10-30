@@ -14,7 +14,7 @@ The API supports CRUD (Create, Read, Update, Delete) operations, allowing users 
 - **Cloning the repo** : Clone the project in your directory. <br>
     `git clone https://github.com/Tr4ce007/ManagingBookAPI.git`
 - **Change into root directory** : Change the directory  <br>
-    `cd LibraryAPI`
+    `cd ManagingBookAPI`
 - **Customisation** : Create a .env file and enter mongodb string to connect to the database.<br> `CONNECTION_URL=mongodb://localhost:27017`
 - **Run the Project** : <br>
     `npm i && node index.js`
