@@ -12,7 +12,7 @@ The API supports CRUD (Create, Read, Update, Delete) operations, allowing users 
 
 ## Installation Guide
 - **Cloning the repo** : Clone the project in your directory. <br>
-    `git clone https://github.com/Tr4ce007/LibraryAPI.git`
+    `git clone https://github.com/Tr4ce007/ManagingBookAPI.git`
 - **Change into root directory** : Change the directory  <br>
     `cd LibraryAPI`
 - **Customisation** : Create a .env file and enter mongodb string to connect to the database.<br> `CONNECTION_URL=mongodb://localhost:27017`
