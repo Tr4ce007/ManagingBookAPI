@@ -28,3 +28,17 @@ Following are the API Endpoints to target the API provided by it - <br>
 | **POST**              | `/books`          | To Create a new book put title, author, publisher and isbn in body |  <br>
 | **PATCH**             | `/books/:id`      | To Update a book put title, author, publisher and isbn in body |  <br>
 | **DELETE**            | `/books/:id`      | To Delete specific book using id.  |   <br>
+
+## Deploy
+- Deployed on render @ [Book Managing API](https://bookmanagerapi.onrender.com/)
+-  Getting list of all Books in database  https://bookmanagerapi.onrender.com/books)
+-  Getting specific Book from database https://bookmanagerapi.onrender.com/books/653f7061dcde5eafde55440d
+-  To add new book send a post request to `https://bookmanagerapi.onrender.com/books` with data in its body in JSON format.
+<br>Dummy Example - <br> `{
+    "title":"R D Sharma Mathematics for Class 11",
+    "author":"R.D. Sharma",
+    "isbn" : "9394417109",
+    "publisher" : "Dhanpat Rai Publications"
+}`
+<br> **NOTE** - ISBN MUST BE UNIQUE.
+<br> **NOTE** - The Render some time need time to restart if left inactive please wait for few minutes.
